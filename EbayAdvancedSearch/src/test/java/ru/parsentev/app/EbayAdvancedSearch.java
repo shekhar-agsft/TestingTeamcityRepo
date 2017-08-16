@@ -26,7 +26,7 @@ public class EbayAdvancedSearch extends TestCase {
 	@Test
 	public void testEbayAdvancedSearch() throws Exception {
 
-		driver.get("http://www.google.com");
+		driver.get("http://www.google.om");
 		// Locate the searchbox using its name
 		WebElement element = driver.findElement(By.name("q"));
 
